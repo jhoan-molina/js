@@ -3,6 +3,18 @@ h1{
     color: crimson;
 }
 div.contenedor{
-    border: 3px solid greenyellow dashed;
-    
+    position: relative;
+    border: 3px dashed greenyellow ;
+    width: 30%;
+    margin: auto;
+}
+img.imagen{
+    width: 100%;
+    opacity: 0.5;
+}
+div.Logo{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
 }
